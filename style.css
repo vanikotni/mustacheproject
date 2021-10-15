@@ -1,0 +1,26 @@
+.btn-info:hover{
+    background-color: darkmagenta;
+}
+
+body{
+    background-image: url("background.jpg");
+    border-width: 20px;
+    background-color: magenta;
+}
+
+h1{
+    font-size: 75px !important;
+    text-shadow:pink 2px 2px;
+}
+
+canvas{
+    animation-name: go_a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes go_a{
+    from{box-shadow: magenta 1px 1px 38px;}
+    to{box-shadow: crimson 1px 1px 38px;}
+    to{box-shadow: palevioletred 1px 1px 38px;}
+}
